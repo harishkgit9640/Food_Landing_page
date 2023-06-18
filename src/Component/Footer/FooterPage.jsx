@@ -12,25 +12,25 @@ const FooterPage = () => {
                 <div className="footer_box useful_links">
                     <h3>Useful Links</h3>
                     <ul>
-                        <li><i class="fa-solid fa-home"></i> <a href="home">Home</a></li>
-                        <li><i class="fa-solid fa-user"></i> <a href="about">About</a></li>
-                        <li><i class="fa-solid fa-pizza-slice"></i> <a href="dishes">Dishes</a></li>
-                        <li><i class="fa-brands fa-blogger-b"></i> <a href="blog">Blog</a></li>
-                        <li><i class="fa-solid fa-user"></i> <a href="contact">Contact</a></li>
+                        <li> <a href="home"> <i className="fa-solid fa-home"></i> Home</a></li>
+                        <li> <a href="about"> <i className="fa-solid fa-user"></i> About</a></li>
+                        <li> <a href="dishes"> <i className="fa-solid fa-pizza-slice"></i> Dishes</a></li>
+                        <li> <a href="blog"> <i className="fa-brands fa-blogger-b"></i> Blog</a></li>
+                        <li> <a href="contact"> <i className="fa-solid fa-user"></i> Contact</a></li>
                     </ul>
                 </div>
 
                 <div className="footer_box contact">
                     <h3>Contact</h3>
-                    <li><i class="fa-solid fa-location-dot"></i> Head Office : srisampat building,kavuri hills, Madhapur Pin - 500033 </li>
-                    <li><i class="fa-solid fa-phone"></i> Telephone : <a href="tel:+91 9876543210">+91 98765-43210</a></li>
-                    <li> <i class="fa-solid fa-envelope"></i> E-mail : <a href="mailto:help@gmail.com">support@gmail.com</a></li>
+                    <li><i className="fa-solid fa-location-dot"></i> Head Office : srisampat building,kavuri hills, Madhapur Pin - 500033 </li>
+                    <li><i className="fa-solid fa-phone"></i> Telephone : <a href="tel:+91 9876543210">+91 98765-43210</a></li>
+                    <li> <i className="fa-solid fa-envelope"></i> E-mail : <a href="mailto:help@gmail.com">support@gmail.com</a></li>
                     <div className="social_links">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-google-plus"></i></a>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i className="fa-brands fa-facebook"></i></a>
+                        <a href=""><i className="fa-brands fa-instagram"></i></a>
+                        <a href=""><i className="fa-brands fa-twitter"></i></a>
+                        <a href=""><i className="fa-brands fa-google-plus"></i></a>
+                        <a href=""><i className="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </footer>
